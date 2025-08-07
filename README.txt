@@ -47,3 +47,4 @@ To verify that your code works, please run your function with this URL (updated 
 https://docs.google.com/document/d/e/2PACX-1vRPzbNQcx5UriHSbZ-9vmsTow_R6RRe7eyAU60xIF9Dlz-vaHiHNO2TKgDi7jy4ZpTpNqM7EvEcfr_p/pub
 
 What is the secret message encoded by this document? Your answer should only contain uppercase letters.
+KICWEDB
