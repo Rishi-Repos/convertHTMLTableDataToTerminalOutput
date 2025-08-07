@@ -27,12 +27,14 @@ def print_grid(url):
     sorted = [[' ' for _ in range(longest_x + 1)] for _ in range(longest_y + 1)]
     for row in data:
         sorted[int(row[2])][int(row[0])] = row[1]
+    # Condense 2Dlist into printable rows
     condensed = ['']
     for row in sorted:
         condensed.append(''.join(row))
+    # Print rows in reverse order
     condensed.reverse()
     for row in condensed:
         print(row)
 
-url = 'https://docs.google.com/document/d/e/2PACX-1vTMOmshQe8YvaRXi6gEPKKlsC6UpFJSMAk4mQjLm_u1gmHdVVTaeh7nBNFBRlui0sTZ-snGwZM4DBCT/pub'
+url = 'https://docs.google.com/document/d/e/2PACX-1vRPzbNQcx5UriHSbZ-9vmsTow_R6RRe7eyAU60xIF9Dlz-vaHiHNO2TKgDi7jy4ZpTpNqM7EvEcfr_p/pub'
 print_grid(url)
